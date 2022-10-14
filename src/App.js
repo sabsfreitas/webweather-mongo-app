@@ -30,8 +30,7 @@ function App() {
   useEffect(() => {
     if (forecast) {
         axios.post("http://localhost:5000/weather", {
-            cityName: forecast.city.name,
-            weatherId: forecast.list[0].weather[0].id,
+            city: forecast.city.name,
             temp: forecast.list[0].main.temp,
             tempMax: forecast.list[0].main.temp_min,
             tempMin: forecast.list[0].main.temp_max,
