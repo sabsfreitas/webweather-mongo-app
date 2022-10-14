@@ -1,0 +1,39 @@
+
+.card {
+  background-color: rgb(171, 150, 185) !important;
+
+}
+
+
+.toolbar {
+  background-color: rgb(59, 37, 74);
+}
+
+.app {
+  text-align: center;
+}
+
+.all {
+  margin: 0.2vh;
+  padding: 1vh;
+}
+
+.data {
+  overflow-x: auto;
+  width: 48%;
+  margin-left: 25vw !important;
+}
+
+.container { 
+  flex-wrap: nowrap !important;
+  justify-content: flex-start !important;
+  padding-left: 12%;
+  padding-right: 12%; 
+  overflow-x: scroll;
+  scrollbar-width: thin;
+}
+
+
+.icon2 {
+  width: 6%;
+}
